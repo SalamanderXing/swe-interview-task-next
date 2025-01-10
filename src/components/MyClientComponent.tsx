@@ -116,7 +116,7 @@ export default function () {
   return (
     <div>
       {/* WARNING: we need the following button to load the data! Then you may make this button disappear if u like. */}
-      <Button onClick={click}>Load Data Already</Button>
+      <Button onClick={click}>Load Data</Button>
     </div>
   );
 }
