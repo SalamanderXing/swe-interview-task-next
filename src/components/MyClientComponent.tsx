@@ -1,6 +1,6 @@
-// WARNING: You can modify the content of this file as much as you like! Except for the content of **loadDataFromServer**, as the warning says.
+// WARNING: You can and should modify the content of this file as much as you like! Except for the content of **loadDataFromServer** as the warning says, and the buttom must be there. 
+//          The styling of that button is not really important.
 // NOTE: Wherever you see that there is a delay, you must display a suspense/loader/spinner.
-// TODO: You must put a button that, when clicked, loads the data from loadDataFromServer.
 // TODO: After the data is loaded, display it in a component that is as similar as possible to the figma shared by Daniele
 
 "use client";
@@ -8,7 +8,7 @@ import React, { useState } from "react";
 import { Button } from "@/components/ui/button";
 
 const loadDataFromServer = async (size: number) => {
-  // WARNING: you can move around this function as much as you like, but but you cannot edit the conent of this function!
+  // WARNING: you can move around this function as much as you like (even in another file as you wish) but but you cannot edit the conent of this function!
   // NOTE: this function can only run from the server!
   if (typeof window !== "undefined") {
     throw new Error("Yo ure on the client!");
