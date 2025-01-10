@@ -1,5 +1,5 @@
 // WARNING: This has to stay a **server component**
-// NOTE: Rememer loaders/suspense/whatever
+// NOTE: Rememer loaders/suspense
 
 import MyClientComponent from "@/components/MyClientComponent";
 
