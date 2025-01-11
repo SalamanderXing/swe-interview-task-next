@@ -1,0 +1,1 @@
+export { loadDataFromServer } from "./fetch-reviews";
