@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.text-gradient {
+  color: green;
+}
+
 @layer base {
   :root {
 

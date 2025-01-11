@@ -10,6 +10,13 @@ export default {
   theme: {
   	extend: {
   		colors: {
+			'dark-blue': '#01387E',
+			'light-blue': '#0073C5',
+  			'secondary-blue': '#293C5B',
+			'tertiary-blue': '#004485',
+  			backgroundImage: {
+				'gradient-stars-container': 'linear-gradient(116deg, #E8F8FF 0%, rgba(232, 248, 255, 0.32) 100%)',
+			},
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
   			card: {
